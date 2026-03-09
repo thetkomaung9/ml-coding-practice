@@ -131,4 +131,6 @@ print(a)
 #월소 위치 확인
 print(a.index(9))
 
-#
+#원소 삽입
+a.insert(0 , 99)
+print(a)
