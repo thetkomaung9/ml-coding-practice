@@ -118,3 +118,7 @@ print(a)
 #원소 추가
 a.append(5)
 print(a)
+
+#원소 정렬
+b.sort()
+print(a)
