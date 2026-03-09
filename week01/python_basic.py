@@ -21,3 +21,4 @@ print(head + tail)
 # 문자열 곱하기
 print(head * 2)
 print("=" * 5)
+
