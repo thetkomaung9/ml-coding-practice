@@ -61,5 +61,5 @@ print(a.lower())
 d = "   py   "
 print(d.lstrip())
 print(d.rstrip())
-
+print(d.strip())
 
