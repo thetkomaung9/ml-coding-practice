@@ -22,4 +22,4 @@ print(head + tail)
 print(head * 2)
 print("=" * 5)
 
-#
+#문자열 인덱싱
