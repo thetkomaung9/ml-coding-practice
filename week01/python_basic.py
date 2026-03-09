@@ -48,3 +48,7 @@ print(a.find('p'))
 print(a.index('y'))
 #print(a.index('p')) # 오류 발생
 
+#문자열 삽입
+b = ","
+c = b.join('Abcd')
+print(c)
