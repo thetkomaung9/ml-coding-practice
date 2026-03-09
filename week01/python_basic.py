@@ -8,4 +8,4 @@ print(a ** 3)
 print(a // b)
 print(7 // 3)
 
-s1 = "Hello python"
+s1 = ' Hello Python'
