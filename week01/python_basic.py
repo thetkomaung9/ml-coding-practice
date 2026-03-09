@@ -128,4 +128,7 @@ a = [3, 4, 1, 9]
 a.reverse()
 print(a)
 
-#월소 위치 
+#월소 위치 확인
+print(a.index(9))
+
+#
