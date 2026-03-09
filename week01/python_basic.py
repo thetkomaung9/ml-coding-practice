@@ -42,3 +42,5 @@ print(a[7:-11])
 a = "Python"
 print(a.count('p'))
 
+#문자 개수 계산
+
