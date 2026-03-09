@@ -46,5 +46,5 @@ print(a.count('p'))
 print(a.find('y'))
 print(a.find('p'))
 print(a.index('y'))
-
+#print(a.index('p')) # 오류 발생
 
