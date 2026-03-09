@@ -135,3 +135,4 @@ print(a.index(9))
 a.insert(0 , 99)
 print(a)
 
+#월소 
