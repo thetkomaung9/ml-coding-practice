@@ -138,3 +138,4 @@ print(a)
 #월소 삭제
 a.remove(99)
 print(a)
+
