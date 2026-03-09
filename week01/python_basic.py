@@ -29,3 +29,7 @@ print(a[4])
 print(a[-1])
 print(a[-2])
 
+#문자열 술라이싱
+b = a[0] + a[1] + a[2]
+print(b)
+
