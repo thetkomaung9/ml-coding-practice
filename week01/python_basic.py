@@ -334,3 +334,4 @@ print(dir(1))
 print(int('3')) #x를 정수 형태로 반환
 print(str(3))  #x를 문자열 형태로 반환
 
+
