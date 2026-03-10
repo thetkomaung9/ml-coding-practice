@@ -350,6 +350,7 @@ print(type(a))
 sum = lambda a, b: a + b
 print(sum(3, 5))
 
-#최대, 최소값 반한
+#최대  최소값 반한
+
 
 
