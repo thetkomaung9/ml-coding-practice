@@ -198,6 +198,8 @@ print(list(dic.keys()))
 for key in dic.keys():
     print(dic[key])
     
-#vlaue
+#vlaue의 리스트 만들기
+print(dic.values())
+print(list(dic.values()))
     
     
