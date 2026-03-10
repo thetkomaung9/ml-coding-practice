@@ -275,3 +275,6 @@ test_list = ['one', 'two', 'three']
 for i in test_list:
     x = i + '!'
     print(x)
+    
+#for 반복문2
+
