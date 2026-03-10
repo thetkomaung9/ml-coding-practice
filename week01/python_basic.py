@@ -193,4 +193,4 @@ print(dic['name'])
 
 #key의 라스트 만들기
 print(dic.keys())
-print(dic)
+print(list(dic.keys()))
