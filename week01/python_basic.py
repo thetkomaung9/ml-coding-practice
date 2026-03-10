@@ -331,6 +331,6 @@ print(dir([1, 2, 3]))
 print(dir({'1': 'a'}))
 print(dir(1))
 
-print(int('3'))
+print(int('3')) #x를 형태로 변환
 print(str(3))
 
