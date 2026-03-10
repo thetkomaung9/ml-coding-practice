@@ -223,4 +223,5 @@ print(s3)
 print(s2 | s3)
 print(s2.union(s3))
 
-#차집합 연상
+#합집합 연상
+print(s2 - s3)
