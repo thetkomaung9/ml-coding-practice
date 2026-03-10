@@ -318,4 +318,8 @@ print(abs(-3.5))
 print(all([1, 2, 3, 4]))
 print(all([4, -2, 0.0, 4]))
 
+#아스키코드 값에 대한 문자 출력
+print(chr(97))
+print(chr(48))
+
 
