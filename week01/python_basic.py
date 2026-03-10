@@ -326,3 +326,6 @@ print(chr(48))
 print(ord('a'))
 print(ord('0'))
 
+#객체 x가 가진 멤버 변수와 멤비 함수 보여주기
+
+
