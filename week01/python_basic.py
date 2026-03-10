@@ -212,3 +212,5 @@ for key, value in dic.items():
 dic.clear()
 print(dic)
 
+#잡합 만들기
+
