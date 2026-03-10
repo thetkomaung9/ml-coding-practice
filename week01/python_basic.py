@@ -322,4 +322,7 @@ print(all([4, -2, 0.0, 4]))
 print(chr(97))
 print(chr(48))
 
+#문자 대한 아스키코트 값 출력
+print(ord('a'))
+print(ord('0'))
 
