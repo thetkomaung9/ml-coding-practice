@@ -251,4 +251,6 @@ print(x == y)
 print(x != y)
 print(x >= y)
 
-#
+#조건의 연결
+money = 1300
+if money 
