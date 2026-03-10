@@ -187,4 +187,5 @@ print(dic)
 del dic[1]
 print(dic)
 
-#원
+#원소의 value 구하기 
+
