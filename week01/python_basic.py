@@ -399,5 +399,5 @@ print(f)
 f.close()
 
 #팔이 쓰기
-
+f = open('example.')
 
