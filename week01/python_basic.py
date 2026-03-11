@@ -365,5 +365,11 @@ c = input("정수를 입력하세요:")
 print(c)
 
 #입력 받을 숫자에 해당되는 범위의 값을 반한
+print(range(5))
+print(list(range(5)))
+print(list(range(5, 10)))
+print(list(range(5, 10, 2)))
 
+for i in range (5, 20, 3):
+    print(i)
 
