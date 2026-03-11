@@ -392,5 +392,9 @@ from datetime import datetime
 datetime.now()
 
 #파일 객체 생성
-f = open ('example.txt')
+f = open ('example.txt', 'w')
+print(f)
+
+#파일 닫기
+f.close()
 
