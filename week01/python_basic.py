@@ -401,4 +401,9 @@ f.close()
 #팔이 쓰기
 f = open('example.txt', 'w')
 for i in range(1, 6):
+    data = '%d번째 줄입니다. \n' %i
+    f.write(data)
+f.close()
+
+
 
