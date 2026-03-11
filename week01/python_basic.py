@@ -416,5 +416,6 @@ f.close()
 f = open ('example.txt', 'r')
 
 while True:
-    line 
+    line = f.readline()
+    
 
