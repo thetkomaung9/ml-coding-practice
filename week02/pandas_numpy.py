@@ -39,4 +39,12 @@ print(sample_df.iloc[0:2])
 print(sample_df.iloc[0:3])
 print(sample_df.iloc[0:3, 2:4]) # 컴림까지 등시에 입댁싱
 
-print(sample_df.drop(['var_1', 'var_3'], axis=1)) #컬럼을 
+print(sample_df.drop(['var_1', 'var_3'], axis=1)) #컬럼을 재거하려면 axis =1
+print(sample_df.drop(['var_1', 'var_2'], axis=1))
+print(sample_df.drop(['a', 'b', 'c'], axis=0)) #형을 재거하려면 axis = 0 또는 다플트로 사용
+
+netflix = pd.read_csv('2.1.1.netflix.csv')
+print(netflix.head())
+
+print(netflix['release_year'])
+
