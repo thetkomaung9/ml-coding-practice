@@ -88,4 +88,5 @@ print(winner_df)
 
 print(sample_df.reset_index())
 
-print(sample_df.reset_index(drop=True)) #
+print(sample_df.reset_index(drop=True)) #기존 언덱스는 재거하기
+
