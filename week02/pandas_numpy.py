@@ -39,4 +39,5 @@ print(sample_df.iloc[0:2])
 print(sample_df.iloc[0:3])
 print(sample_df.iloc[0:3, 2:4]) # 컴림까지 등시에 입댁싱
 
-
+netflix = pd.read_csv('2.1.1.netflix.csv')
+print()
