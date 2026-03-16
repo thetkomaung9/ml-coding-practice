@@ -90,3 +90,7 @@ print(sample_df.reset_index())
 
 print(sample_df.reset_index(drop=True)) #기존 언덱스는 재거하기
 
+print(sample_df.set_index('var_1'))
+
+
+
