@@ -82,4 +82,8 @@ condition =(
      (df['has_image'])                 #이미지가 포함됨 댓글이어야 함
      )
 
-#조건을 만족하는 행들 필
+#조건을 만족하는 행들 필덕림
+winner_df = df[condition]
+print(winner_df)
+
+print(sample)
