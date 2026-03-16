@@ -33,4 +33,5 @@ print(sample_df.loc['a']) #행 가준으로 언대싱
 print(sample_df.loc[['a', 'c', 'e']])
 print(sample_df.loc['a': 'c'])
 
-# loc는 locatin의 앞글자
+# iloc: integer location의 약자
+prinr
