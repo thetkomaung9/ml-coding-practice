@@ -29,4 +29,4 @@ print(sample_df['var_5'])
 print(sample_df[['var_1', 'var_4']]) #[ [] ] 를 사용하면 [] 가 하나의 값으로 인식팀
 
 #loc 는 location의  앞글자
-print(sample_df.loc)
+print(sample_df.loc['a']) #
