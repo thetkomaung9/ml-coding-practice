@@ -77,5 +77,7 @@ print(df.head())
 #필더링 조건 설정
 condition =(
     (df['connect_length'] >= 100 &
-     )
+     (df['likes'] >= 20) &
+     (~df['is_spam']) &
+     (df['has_image']))
 )
