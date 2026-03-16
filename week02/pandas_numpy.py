@@ -1,4 +1,12 @@
 import pandas as pd
 
 file_url = 'https://media.githubusercontent.com/media/musthave-ML10/data_source/main/sample.csv'
-sample = pd.
+sample = pd.read_csv(file_url)
+
+print(sample.head)
+print(sample.tail())
+
+sample.inf0()
+sample.describe()
+
+sample_dic={'name': ['John', 'Ann', 'Kevin'],}
