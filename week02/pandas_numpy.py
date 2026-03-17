@@ -127,3 +127,8 @@ print(df.head())
 # 나이가 30 이상의 직원의 이름과 급여 반한
 result = df [df['age'] >=30] [['name', 'salary']]
 print(result)
+
+# 에제 데이더 생성
+data = {
+    
+}
