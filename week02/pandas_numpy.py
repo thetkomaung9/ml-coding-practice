@@ -6,7 +6,7 @@ sample = pd.read_csv(file_url)
 print(sample.head())
 print(sample.tail())
 
-sample.inf0()
+sample.info()
 sample.describe()
 
 sample_dic={'name': ['John', 'Ann', 'Kevin'], 'age': [23,22,21]}
