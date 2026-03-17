@@ -140,5 +140,6 @@ data = {
 df = pd.DataFrame(data)
 print(df.head())
 
-# 개인밥 과욕 정수의 
+# 개인밥 과욕 정수의 평군값 게산 (axis=1)
+df()
 
