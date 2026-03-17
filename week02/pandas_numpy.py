@@ -28,7 +28,7 @@ print(sample_df['var_5'])
 # print(sample_df['var_1', 'var_2']) #[] 안에는 하니의 값만 들어갈 수 있음
 print(sample_df[['var_1', 'var_4']]) #[ [] ] 를 사용하면 [] 가 하나의 값으로 인식팀
 
-#loc 는 location의  앞글자
+# loc 는 location의  앞글자
 print(sample_df.loc['a']) #행 가준으로 언대싱
 print(sample_df.loc[['a', 'c', 'e']])
 print(sample_df.loc['a': 'c'])
@@ -106,7 +106,7 @@ print(iris.groupby('class').std())
 
 print(iris.drop('class', 'axis=1').agg(['sum', 'mean', 'std']))
 
-#print(iris.agg(['sum', 'mean', 'std'])) #class 컴럼으로 인색 에러 박생
+# print(iris.agg(['sum', 'mean', 'std'])) #class 컴럼으로 인색 에러 박생
 
 
 print(iris['class'].unique())
