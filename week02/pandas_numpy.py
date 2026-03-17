@@ -76,7 +76,7 @@ print(df.head())
 
 #필더링 조건 설정
 condition =(
-    (df['commet_length'] >= 100) &   #댓글 길이 100자 이싱
+    (df['comment_length'] >= 100) &   #댓글 길이 100자 이싱
      (df['likes'] >= 20) &             #좋아요 20개 이상
      (~df['is_spam']) &                #스핌 댓급이 아니어야 함
      (df['has_image'])                 #이미지가 포함됨 댓글이어야 함
