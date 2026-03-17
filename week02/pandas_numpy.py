@@ -220,7 +220,7 @@ print(a.sum())          # 모든 요소의 합
 print(a.mean())         # 모든 요소의 평군
 print(a.mean(axis = 0))     # 욜을  기준으로 연산
 
-print(a.min())          #모든 요소의 합
+print(a.min())          # 
 print(a.max())
 
 print(a.max(axis=1))
