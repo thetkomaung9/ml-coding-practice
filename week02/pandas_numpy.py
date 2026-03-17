@@ -25,7 +25,7 @@ print(sample_df.head())
 
 print(sample_df['var_5'])
 
-#print(sample_df['var_1', 'var_2']) #[] 안에는 하니의 값만 들어갈 수 있음
+# print(sample_df['var_1', 'var_2']) #[] 안에는 하니의 값만 들어갈 수 있음
 print(sample_df[['var_1', 'var_4']]) #[ [] ] 를 사용하면 [] 가 하나의 값으로 인식팀
 
 #loc 는 location의  앞글자
@@ -112,3 +112,5 @@ print(iris.drop('class', 'axis=1').agg(['sum', 'mean', 'std']))
 print(iris['class'].unique())
 print(iris['class'].nunique())
 print(iris['class'].value_counts())
+
+# 에제
