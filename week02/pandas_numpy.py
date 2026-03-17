@@ -141,5 +141,7 @@ df = pd.DataFrame(data)
 print(df.head())
 
 # 개인밥 과욕 정수의 평군값 게산 (axis=1)
-df()
+df['average'] = df[['math', 'science', 'english']].mean(axis=1)
+print(df)
+
 
