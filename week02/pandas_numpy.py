@@ -113,4 +113,9 @@ print(iris['class'].unique())
 print(iris['class'].nunique())
 print(iris['class'].value_counts())
 
-# 에제
+# 에제 데이터 생성
+data ={
+    'name' : ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+    'age': [25, 30, 28, 40],
+    'salary': [70000.00, ]
+}
