@@ -171,4 +171,6 @@ print(np.array([1,2,3,4,5]))
 print(np.array(sample_df))
 
 sample_np = np.array(sample_df)
-print(pd.DataFrame(sample_np)) # 
+print(pd.DataFrame(sample_np)) # 컴럼명이 0, 1, 2, 3, 4
+
+print(sample_df.columns)    # 기존 프래임읶크에서 
