@@ -216,7 +216,7 @@ print(np.arange(8).reshape(2, 4) + 10)
 a = np.arange(8).reshape(2, 4) ** 2
 print(a)
 
-print(a.sum())
+print(a.sum())          # 
 print(a.mean())
 print(a.mean(axis = 0))
 
