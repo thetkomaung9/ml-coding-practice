@@ -124,4 +124,4 @@ data ={
 df = pd.DataFrame(data)
 print(df.head())
 
-# 
+# 나이가 30 이상의 
