@@ -93,3 +93,4 @@ scatter = plt.scatter(x='Age', y='Fare', data=titanic, c=titanic['Survived'], cm
 
 
 
+
