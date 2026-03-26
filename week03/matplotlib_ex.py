@@ -9,3 +9,5 @@ titanic = pd.read_csv('3.1.1.titanic.csv')
 
 # 데이터 처음 5개의 행 출력
 print(titanic.head())
+
+# 데이터 처음 
