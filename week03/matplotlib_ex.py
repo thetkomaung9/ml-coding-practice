@@ -31,3 +31,5 @@ plt.ylabel('Survival Rate')
 plt.xticks([1, 2, 3])
 plt.grid(True)
 plt.savefig('Figures01.png')
+plt.close()
+
