@@ -105,5 +105,7 @@ plt.close()
 survived_counts = titanic['Survived'].value_counts()
 print(survived_counts)
 
+# 파이 차트 그리기
+
 
 
