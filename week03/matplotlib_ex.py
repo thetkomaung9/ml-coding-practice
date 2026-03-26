@@ -79,7 +79,7 @@ for i, value in enumerate(survived_counts):
 plt.savefig('Figures03.png')
 plt.close()
 
-"""### **"""
+"""### **산점도 그래프 : 나이와 """
     
 
 
