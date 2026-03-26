@@ -47,3 +47,4 @@ plt.xlabel('Embarked Port')
 plt.ylabel('Counts')
 plt.xticks(survived_counts.index, ['Southampton', 'Cherbourg', 'Queenstown'])
 plt.legend(['Survived']), loc=('upper right')
+
