@@ -108,6 +108,6 @@ print(survived_counts)
 # 파이 차트 그리기
 plt.figure(figsize=(8, 8))
 plt.pie(survived_counts, labels=['Not Survived', 'Survived'], colors=['orange', 'gold'],
-        
+        autopct='%1.1f%%', startangle=90, explode=[0.1, 0])
 
 
