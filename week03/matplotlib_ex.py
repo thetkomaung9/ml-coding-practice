@@ -119,4 +119,6 @@ plt.close()
 # 처리 전
 print(titanic.info(), '\n')
 
+# 나이 겨
+
 
