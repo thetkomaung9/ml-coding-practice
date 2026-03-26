@@ -50,4 +50,5 @@ plt.legend(['Survived']), loc=('upper right')
 plt.gird(axis='y', linestyle='--', alpha=0.7)
 
 # 생존자 수 표시
-
+for i, value in enumerate(survived_counts):
+    plt.text(i, value + 1, str(value), ha='center', va='bottom')
