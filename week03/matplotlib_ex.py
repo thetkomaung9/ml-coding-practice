@@ -110,7 +110,11 @@ plt.figure(figsize=(8, 8))
 plt.pie(survived_counts, labels=['Not Survived', 'Survived'], colors=['orange', 'gold'],
         autopct='%0.1f%%', startangle=90, shadow=True, explode=(0, 0.1))
 
-plt.title('Survival Proportion on Titanic')
+plt.title('Survival Distribution on the Titanic')
+plt.savefig('Figures05.png')
+plt.close()
+
+"""### **히스토그램 : """
 
 
 
