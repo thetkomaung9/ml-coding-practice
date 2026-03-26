@@ -66,6 +66,7 @@ print(survived_counts)
 bars = plt.barh(survived_counts.index, survived_counts, color=['darkturquoise','salmon'])
 plt.title('Survived Counts by Gender on Titanic')
 plt.xlabel('Counts')
-plt.ylabel()
+plt.ylabel('Gender')
+plt.legend(bars, ['Survived - Female', 'Survived - Male'])
 
 
