@@ -197,4 +197,4 @@ print(titanic.info())
 plt.boxplot([titanic[titanic['Pclass'] == 1]['Age'],
              titanic[titanic['Pclass'] == 2]['Age'],
              titanic[titanic['Pclass'] == 3]['Age']],
-            )
+            labels=['Pclass 1', 'Pclass 2', 'Pclass 3])
