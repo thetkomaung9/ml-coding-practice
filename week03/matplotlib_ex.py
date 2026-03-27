@@ -139,6 +139,6 @@ plt.close()
 # 결측치 처리
 titanic = titanic.dropna(subset=['Age', 'Fare'])
 
-# 상관치 계산
+# 상관 행렬 계산
 
 
