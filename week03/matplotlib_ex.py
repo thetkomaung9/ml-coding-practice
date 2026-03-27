@@ -233,4 +233,4 @@ plt.legend(violin_plot['bodies'], ['1st Class', '2nd Classs', '3rd Class'],
 plt.savefig('Figures10.png')
 plt.close()
 
-""" **에러 바 : 요금의 평금의 """
+### **에러 바 : 요금의 평균과 표준편차 표시하기**
