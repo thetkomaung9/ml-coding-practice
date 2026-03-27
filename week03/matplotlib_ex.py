@@ -162,3 +162,5 @@ titanic = titanic.dropna(subset=['Age', 'Fare'])
 
 # 나이대별 생존자와 시망자 수 계산하기 위해 벙주형 변수로 변화
 age_groups = pd.cut(titanic['Age'], bins=range(0, 81, 5))
+
+# Age, Sur
