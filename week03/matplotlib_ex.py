@@ -137,6 +137,8 @@ plt.close()
 ## 하트맵 : 두 변수의 상관를 표시하기**
 
 # 결측치 처리
+titanic = titanic.dropna(subset=['Age', 'Fare'])
 
+# 상관치 계산
 
 
