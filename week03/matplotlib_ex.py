@@ -224,4 +224,5 @@ plt.title('Violin Plot for Age by Pclass')
 plt.xlabel('Pclass')
 plt.ylabel('Age')
 
-# xㅁㅁ
+# x축의 눈금 설정
+plt.xticks([1, 2, 3], ['1st Class', '2
