@@ -160,4 +160,4 @@ plt.close()
 # 결측치 처리
 titanic = titanic.dropna(subset=['Age', 'Fare'])
 
-
+# 
