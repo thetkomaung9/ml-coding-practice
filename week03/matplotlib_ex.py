@@ -242,3 +242,4 @@ print(fare_means, '\n')
 fare_stds = titanic.groupby('Parch')['Fare'].std()   # 표준 편차
 print(fare_stds)
 
+"""* """
