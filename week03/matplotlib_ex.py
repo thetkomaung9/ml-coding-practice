@@ -155,4 +155,4 @@ plt.title('Correlatiomn Heatmap of Titanic')
 plt.savefig('Figures07.png')
 plt.close()
 
-
+## **영역 채우기
