@@ -155,4 +155,7 @@ plt.title('Correlatiomn Heatmap of Titanic')
 plt.savefig('Figures07.png')
 plt.close()
 
-## **영역 채우기 
+## **영역 채우기 그래피 : 나이대별 생존자와 사망자 수 확인하기**
+
+# 결측치 처리
+
