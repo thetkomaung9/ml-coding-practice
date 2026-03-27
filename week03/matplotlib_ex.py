@@ -124,3 +124,4 @@ titanic = titanic.dropna(subset=['Age'])
 print(titanic.info())
 
 
+
