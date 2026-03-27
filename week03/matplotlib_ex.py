@@ -147,4 +147,5 @@ print(correlation_matrix)
 plt.matshow(correlation_matrix, camp='PuRd_r')
 plt.colorbar()
 
-# x
+# x축과 y축의 눈금 설정
+
