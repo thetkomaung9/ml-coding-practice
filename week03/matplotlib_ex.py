@@ -243,3 +243,5 @@ fare_stds = titanic.groupby('Parch')['Fare'].std()   # 표준 편차
 print(fare_stds)
 
 """* 에러바는 데이터의 표준 편차를 나타내는 경우에는 길이가 길수록 해당 그룹의 데이터가 퍼져 있음을 의미합니다."""
+
+# 
