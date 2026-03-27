@@ -259,4 +259,4 @@ plt.legend()
 plt.savefig('Figures11.png')
 plt.close()
 
-## 
+## **개별 서브롯을 하니씩 생성하기**
