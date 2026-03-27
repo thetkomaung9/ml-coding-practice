@@ -260,3 +260,7 @@ plt.savefig('Figures11.png')
 plt.close()
 
 ## **개별 서브롯을 하니씩 생성하기**
+plt.subplot(2, 2, 1)
+plt.plot([1, 2, 3])
+
+plt.subplot(2, 2, 3)
