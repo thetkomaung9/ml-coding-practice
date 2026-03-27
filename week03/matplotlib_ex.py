@@ -134,5 +134,9 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.savefig('Figures06.png')
 plt.close()
 
+## 하트맵 : 두 변수의 상관를 표시하기**
+
+# 결측치 처리
+
 
 
