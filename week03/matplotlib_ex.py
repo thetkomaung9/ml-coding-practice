@@ -394,3 +394,10 @@ ax2.tick_params(axis='y', labelcolor='deeppink')
 ax2.legend(loc='upper right', bbox_to_anchor=(1, 0.9)) 
 
 plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on Titanic')
+plt.tight_layout()
+plt.savefig('Figures16.png')
+plt.close()
+
+## **그래프 정장하기**
+
+# 하스토그램 그리기
