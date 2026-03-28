@@ -303,3 +303,4 @@ plt.legend(loc='upper right')
 
 # 두 번째 서브플롯 설정(막대 그래프)
 plt.subplot(2, 1, 2)
+plt.bar(x, y2, color='deeppink', edgecolor='black', label='Survived')
