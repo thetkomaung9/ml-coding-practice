@@ -315,3 +315,5 @@ plt.tight_layout()
 plt.savefig('Figures13.png')
 plt.close()
 
+## **개별 서브플롯을 동시에 생성하기**
+
