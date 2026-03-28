@@ -248,7 +248,7 @@ print(fare_stds)
 plt.figure(figsize=(10, 6))
 
 # 에러바 생성
-plt.errorbar(fare_means.index, fare_means, yerr=fare_std, fmt='0',
+plt.errorbar(fare_means.index, fare_means, yerr=fare_stds, fmt='0',
              capsize=5, capthick=1, label='Fare')
 
 plt.title('Error Bar Plot of Fare by Parch')
