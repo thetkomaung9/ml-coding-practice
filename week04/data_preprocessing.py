@@ -88,3 +88,7 @@ for set_ in (strat_train_set, strat_test_set):
     ordinal_encoder = OrdinalEncoder()
     housing_cat_encoded = ordinal_encoder.fit_transform(housing_cat)
     
+    housing_cat_encoded[:8]
+    
+    ordinal_encoder.categories_
+    
