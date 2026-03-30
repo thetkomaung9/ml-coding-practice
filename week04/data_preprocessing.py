@@ -69,4 +69,6 @@ for set_ in (strat_train_set, strat_test_set):
     housing_tr.loc[null_rows_idx].head()
     
     # 이상치 삭제
+    from sklearn.ensemble import IsolationForest
+    
     
