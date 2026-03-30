@@ -50,4 +50,5 @@ for set_ in (strat_train_set, strat_test_set):
     
     imputer = SimpleImputer(strategy="median")
     
-    
+    # 수치형 특성만 추출
+    housing_num = 
