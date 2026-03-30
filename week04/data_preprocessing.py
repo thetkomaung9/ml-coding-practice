@@ -44,4 +44,10 @@ for set_ in (strat_train_set, strat_test_set):
     # 데이터 정제
     # null 값이 있는 행 확인하기
     null_rows_idx = housing.isnull().any(axis=1)
+    housing.loc[null_rows_idx].hread()
+    
+    from sklearn.impute import SimpleImputer
+    
+    imputer = SimpleImputer(strategy="median")
+    
     
