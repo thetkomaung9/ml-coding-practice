@@ -83,5 +83,8 @@ for set_ in (strat_train_set, strat_test_set):
     housing_cat = housing[["ocean_proximity"]]
     housing_cat.head(8)
     
+    from sklearn.preprocessing import OrdinalEncoder
     
+    ordinal_encoder = OrdinalEncoder()
+    housing_cat_encoded = ordinal_encoder.fit_transform(housing_cat)
     
