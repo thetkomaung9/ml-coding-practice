@@ -66,4 +66,4 @@ for set_ in (strat_train_set, strat_test_set):
     
     housing_tr = pd.DataFrame(X, columns=housing_num.columns,
                               index=housing_num.index)
-    
+    housing_tr.loc[null]
