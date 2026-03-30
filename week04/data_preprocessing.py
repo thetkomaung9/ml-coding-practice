@@ -59,4 +59,7 @@ for set_ in (strat_train_set, strat_test_set):
     print(imputer.statistics_)        # imputer 결과 값
     print(housing_num.median().values) # 수동으로 계산한 중간값
     
+    # 훈련 세트의 누락값을 imputer가 학습한 값으로 체우기
+    X = imputer.transform(housing_num)
     
+    housing_tr = pd.DataFrame(X, columns=housing_num.columns, index=housing_num.index)
