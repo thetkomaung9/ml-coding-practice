@@ -57,4 +57,4 @@ for set_ in (strat_train_set, strat_test_set):
     imputer.fit(housing_num)
     
     print(imputer.statistics_)        # imputer 결과 값
-    
+    print(housing_num.median().values) # 
