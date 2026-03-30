@@ -91,4 +91,3 @@ for set_ in (strat_train_set, strat_test_set):
     housing_cat_encoded[:8]
     
     ordinal_encoder.categories_
-    
