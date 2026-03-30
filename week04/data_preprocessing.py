@@ -80,5 +80,6 @@ for set_ in (strat_train_set, strat_test_set):
     housing_labels = housing_labels.iloc[outlier_pred == 1]
     
     # 텍스트와 범주형 특성 다루기
-    
+    housing_cat = housing[["ocean_proximity"]]
+    housing_labels
     
