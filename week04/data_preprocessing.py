@@ -77,5 +77,8 @@ for set_ in (strat_train_set, strat_test_set):
     outlier_pred
     
     housing = housing.iloc[outlier_pred == 1]
+    housing_labels = housing_labels.iloc[outlier_pred == 1]
+    
+    # 텍스트와 범주형 특성 다루기
     
     
