@@ -81,5 +81,7 @@ for set_ in (strat_train_set, strat_test_set):
     
     # 텍스트와 범주형 특성 다루기
     housing_cat = housing[["ocean_proximity"]]
-    housing_labels
+    housing_cat.head(8)
+    
+    
     
