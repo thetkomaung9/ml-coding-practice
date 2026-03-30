@@ -71,4 +71,10 @@ for set_ in (strat_train_set, strat_test_set):
     # 이상치 삭제
     from sklearn.ensemble import IsolationForest
     
-    isolation_forest =
+    isolation_forest = IsolationForest(random_state=42)
+    outlier_pred = isolation_forest.fit_predict(X)
+    
+    outlier_pred
+    
+    
+    
