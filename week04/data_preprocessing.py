@@ -71,4 +71,4 @@ for set_ in (strat_train_set, strat_test_set):
     # 이상치 삭제
     from sklearn.ensemble import IsolationForest
     
-    
+    isolation_forest =
