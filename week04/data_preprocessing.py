@@ -62,6 +62,8 @@ for set_ in (strat_train_set, strat_test_set):
     # 훈련 세트의 누락값을 imputer가 학습한 값으로 체우기
     X = imputer.transform(housing_num)
     
+    imputer.feature_names_in_
+    
     housing_tr = pd.DataFrame(X, columns=housing_num.columns,
                               index=housing_num.index)
     
