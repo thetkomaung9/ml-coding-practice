@@ -60,8 +60,8 @@ sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s': 
 sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s': 50, 'alpha': 0.5}, line_kws={'linestyle': '--'}, ax=ax2, fit_reg=False)
 
 fig.suptitle('Scatter Plots with Regression Lines', fontsize=16)
-ax1.set_title('fit_reg=True')
-ax2.set_title('fit_reg=False')
+ax1.set_title('fit_reg= True')
+ax2.set_title('fit_reg= False')
 plt.savefig('./week04/Seaborn_Figure03.jpg')
 
 # **히스토그램과 커널 밀도 추정 그래프**
@@ -80,5 +80,5 @@ plt.savefig('./week04/Seaborn_Figure05.jpg')
 # pairplot( ) 그리기
 sns.pairplot(data=tips, hue='sex', diag_kind='hist', palette='husl')
 
-plt.suptitle('Pair with Histogram by Gender', y=1.05)
+plt.suptitle('Pairplot with Histogram by Gender', y=1.05)
 plt.savefig('./week04/Seaborn_Figure06.jpg')
