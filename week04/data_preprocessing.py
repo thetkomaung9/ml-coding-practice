@@ -51,17 +51,17 @@ X = imputer.transform(housing_num)
     
 imputer.feature_names_in_
     
-    housing_tr = pd.DataFrame(X, columns=housing_num.columns,
+housing_tr = pd.DataFrame(X, columns=housing_num.columns,
                               index=housing_num.index)
-    housing_tr.loc[null_rows_idx].head()
+housing_tr.loc[null_rows_idx].head()
     
-    # 이상치 삭제
-    from sklearn.ensemble import IsolationForest
+# 이상치 삭제
+from sklearn.ensemble import IsolationForest
     
-    isolation_forest = IsolationForest(random_state=42)
-    outlier_pred = isolation_forest.fit_predict(X)
+isolation_forest = IsolationForest(random_state=42)
+outlier_pred = isolation_forest.fit_predict(X)
     
-    outlier_pred
+outlier_pred
     
     housing = housing.iloc[outlier_pred == 1]
     housing_labels = housing_labels.iloc[outlier_pred == 1]
