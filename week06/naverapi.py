@@ -20,4 +20,7 @@ def main():
     while ((jsonResponse != None) and (jsonResponse['display'] != 0)):
         for post in jsonResponse['items']:
             vnt += 1
-            getPostData(post, jsonResult, cnt)
+            getPostData(post, jsonResult, cnt)          # [CODE 3]
+            
+            start = jsonResponse['start'] + jsonResponse['display']
+            jsonResponse = getNaverSearch(node, srcText, start, 100)
