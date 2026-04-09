@@ -68,3 +68,10 @@ def getRequestUrl(url):
         return None
     
     
+def getPostData(post, jsonResult, cnt):  #[CODE 3]
+    title = post['title']
+    description = post['description']
+    org_link = post['originallink']
+    link = post['link']
+    
+    # %a: 짧은 형식의 요일 이름 (예, 'Mon', "")
