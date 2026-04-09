@@ -40,5 +40,5 @@ def main():
 def getNaverSearch(node, srcText, page_start, display):
     base = "https://openai.naver.com/v1/search"
     node = "/%s.json" % node
-    parameters = "?query=%s&start"
+    parameters = "?query=%s&start=%s&display=%s" % (urllib.parse.quote(srcText),)
     
