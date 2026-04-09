@@ -25,3 +25,4 @@ def main():
             start = jsonResponse['start'] + jsonResponse['display']
             jsonResponse = getNaverSearch(node, srcText, start, 100)    # [CODE 2]
             
+    
