@@ -20,4 +20,5 @@ def main():
     
     jsonResult, result, natName, dateEND = getTourismStatesService(nat_cd, ed_cd, nStartYear, nEndYear)   
     
-    
+    #파일저장 : csv 파일
+    columns = [""]
