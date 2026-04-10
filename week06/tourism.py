@@ -27,4 +27,5 @@ def main():
     
 """### [CODE 3]"""
 
-def 
+def getTourismStatesService(nat_cd, ed_cd, nStartYear, nEndYear):
+    json
