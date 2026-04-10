@@ -80,4 +80,4 @@ def getRequestUrl(url): #[CODE 1]
     
     try:
         response = urllib.request.urlopen(req)
-        
+        if 
