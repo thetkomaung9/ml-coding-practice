@@ -79,4 +79,5 @@ def getRequestUrl(url): #[CODE 1]
     req = urllib.request.Request(url)
     
     try:
-        response = url
+        response = urllib.request.urlopen(req)
+        
