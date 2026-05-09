@@ -7,3 +7,5 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
+iris = load_iris(as_frame=True)
+X = 
