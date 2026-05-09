@@ -8,4 +8,4 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
 iris = load_iris(as_frame=True)
-X = 
+X = iris.data[["petal length (cm)", "petal width (cm)"]]
