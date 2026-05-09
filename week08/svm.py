@@ -2,4 +2,8 @@
 # 선형 SVM 분류
 
 import numpy as np
-import sklearn.datasets import load_iris
+from sklearn.datasets import load_iris
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+
