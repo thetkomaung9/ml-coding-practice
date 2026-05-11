@@ -31,3 +31,11 @@ lin_reg.fit(X, y)
 lin_reg.intercept_, lin_reg.coef_
 
 X_new = np.array([[0], [2]])
+print(lin_reg.predict(X_new))
+
+# 확률적 경사 하강법
+
+from sklearn.linear_model import SGDRegressor
+
+sgd_reg = SGDRegressor(max_iter=1000, tol=1e-5, penalty=None, eta0=0.1,
+                       n_iter_no_change=100, random_state=42)
