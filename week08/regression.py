@@ -12,3 +12,9 @@ import numpy as np
 np.random.seed(42)
 m = 100
 X = 2 * np.random.rand(m, 1)
+y = 4 + 3 * X + np.random.randn(m, 1)
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(6, 4))
+plt.
