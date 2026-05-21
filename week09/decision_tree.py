@@ -77,4 +77,4 @@ X_iris_rotated = pca_pipeline.fit_transform(X_iris)
 tree_clf_pca = DecisionTreeClassifier(max_depth=2, random_state=42)
 tree_clf_pca.fit(X_iris_rotated, y_iris)
 
-# 
+# 추가 코드 - 이 셀은 그림 6-8을 생성하고 저장합니다.
