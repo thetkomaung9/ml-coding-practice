@@ -72,4 +72,4 @@ from sklearn.decomposition import PCA
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-pca_pipeline = make_pipe
+pca_pipeline = make_pipeline(StandardScaler(), PCA())
