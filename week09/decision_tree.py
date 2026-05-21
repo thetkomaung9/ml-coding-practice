@@ -93,5 +93,5 @@ y_pred = tree_clf_pca.predict(X_iris_pca_all).reshape(z0s.shape)
 
 plt.contourf(z0s, z1s, y_pred, alpha=0.3, cmap=custom_cmap)
 for idx, (name, style) in enumerate(zip(iris.target_names, ("yo", "bs", "g^"))):
-    plt.plot(X_iris_rotated[iris.target == idx, 0],
+    plt.plot(X_iris_rotated],
              X_iris_rotated[]
