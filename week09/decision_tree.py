@@ -92,3 +92,4 @@ X_iris_pca_all = np.c_[z0s.ravel(), z1s.ravel()]
 y_pred = tree_clf_pca.predict(X_iris_pca_all).reshape(z0s.shape)
 
 plt.contourf(z0s, z1s, y_pred, alpha=0.3, cmap=custom_cmap)
+for idx, (name, style) in enumerate(zip(iris.target))
