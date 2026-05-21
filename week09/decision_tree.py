@@ -88,4 +88,4 @@ plt.figure(figsize=(8, 4))
 axes = [-2.2, 2.4, -0.6, 0.7]
 z0s, z1s = np.meshgrid(np.linespace(axes[0], axes[1], 100),
                        np.linespace(axes[2], axes[3], 100))
-X_iris_pca_all = np.c
+X_iris_pca_all = np.c_[z0s.ravel(), z1s.ravel()]
