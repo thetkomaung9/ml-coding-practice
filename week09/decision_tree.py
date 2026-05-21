@@ -43,3 +43,12 @@ X_moons_test, y_moons_test = make_moons(n_samples=1000, noise=0.2,
                                         random_state=43)
 
 print(tree_clf1.score(X_moons_test, y_moons_test))
+print(tree_clf2.score(X_moons_test, y_moons_test))
+
+# 회귀
+
+from sklearn.tree import DecisionTreeRegressor
+import numpy as np
+
+np.random.seed(42)
+X_quad = np.random.rand(200, 1) - 0.5  # 간단한 랜덤한 입력 특성
