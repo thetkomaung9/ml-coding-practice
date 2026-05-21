@@ -97,4 +97,4 @@ for idx, (name, style) in enumerate(zip(iris.target_names, ("yo", "bs", "g^"))):
              X_iris_rotated[:, 1][y_iris == idx],
              style, label=f"Iris {name}")
 
-             
+plt.xlabel()             
