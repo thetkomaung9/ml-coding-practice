@@ -170,3 +170,4 @@ plt.show()
 
 from sklearn.neighbors import KNeighborsClassifier
 
+X, y = make_moons(n_samples)
