@@ -39,4 +39,10 @@ plt.show()
 # 각 샘플은 5개의 클러스터 중 하나에 할당
 print(y_pred)
 
-# 5개의 _센트로이도_()
+# 5개의 _센트로이도_(즉, 클러스터 중심)을 추정
+print(Kmeans.cluster_centers_)
+
+print(Kmeans.labels_)
+
+# 이너셔
+print(Kmeans.inertia_)
