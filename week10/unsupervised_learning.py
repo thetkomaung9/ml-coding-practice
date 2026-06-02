@@ -29,3 +29,6 @@ def plot_clusters(X, y=None):
     plt.scatter(X[:, 0], X[:, 1], c=y, s=1)
     plt.xlabel("$x_1$")
     plt.ylabel("$x_2$", rotation=0)
+    
+plot.figure(figsize=(8, 4))
+plot_clusters(X)
