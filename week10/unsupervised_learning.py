@@ -102,3 +102,9 @@ for k in (3, 4, 5, 6):
         
     plt.gca().yaxis.set_major_locator(FixedLocator(ticks))
     plt.gca().yaxis.set_major_formatter(FixedFormatter(range(k)))
+    if k in (3, 5):
+        plt.ylabel("클러스터")
+    
+    if k in (5, 6):
+        plt.gca().set_xticks([-0.1, 0, 0.2, 0.4, 0.6, 0.8, 1])
+        
