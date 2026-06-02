@@ -46,3 +46,7 @@ print(Kmeans.labels_)
 
 # 이너셔
 print(Kmeans.inertia_)
+
+print(Kmeans.score(X))
+
+kme
