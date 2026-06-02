@@ -79,3 +79,16 @@ plt.show()
 from sklearn.metrics import silhouette_samples
 from matplotlib.ticker import FixedLocator, FixedFormatter
 
+plt.figure(figsize=(11, 9))
+
+for k in (3, 4, 5, 6):
+    plt.subplot(2, 2, k - 2)
+    model = kmeans_per_k[k - 1]
+    y_kmeans = model.labels_
+    silhouette_vals = silhouette_samples(X, y_kmeans)
+    plt.barh(range(len(X)), silhouette_vals, height=1)
+    plt.gca().xaxis.set_major_locator(FixedLocator([-0.1, 0, 0.1, 0.2, 0.3]))
+    plt.gca().xaxis.set_major_formatter(FixedFormatter(["-0.1", "0", "0.1", "0.2", "0.3"]))
+    plt.xlabel("실루엣 계수")
+    plt.ylabel("샘플")
+    plt.title(f"$k={k}$")
