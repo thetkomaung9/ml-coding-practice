@@ -178,4 +178,4 @@ knn = KNeighborsClassifier(n_neighbors=50)
 knn.fit(dbscan.components_, dbscan.labels_[dbscan.core_sample_indices_])
 
 X_new = np.array([[-0.5, 0], [0, 0.5], [1, -0.1], [2, 1]])
-pr
+print(knn.predict(X_new))
