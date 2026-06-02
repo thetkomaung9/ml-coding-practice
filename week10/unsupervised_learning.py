@@ -175,3 +175,4 @@ dbscan = DBSCAN(eps=0.2, min_samples=5)
 dbscan.fit(X)
 
 knn = KNeighborsClassifier(n_neighbors=50)
+knn.fit(dbscan.components_, dbscan.labels_[dbscan.core_sample_indices_])
