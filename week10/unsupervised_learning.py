@@ -49,4 +49,4 @@ print(Kmeans.inertia_)
 
 print(Kmeans.score(X))
 
-kme
+kmeans_per_k = [KMeans(n_clusters=k, n_init=10, random_state=42).fit(X)
