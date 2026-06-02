@@ -54,4 +54,5 @@ inertias = [model.inertia_ for model in kmeans_per_k]
 
 plt.figure(figsize=(8, 3.5))
 plt.plot(range(1, 10), inertias, "bo-")
+plt.xlabel("$k$")
 
