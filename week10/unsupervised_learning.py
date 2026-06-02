@@ -15,4 +15,5 @@ from sklearn.cluster import KMeans
 from sklearn.datasets import make_blobs
 import numpy as np
 
-blobs_centers = np.array([[ 0.2]])
+blobs_centers = np.array([[ 0.2, 2.3], [-1.5, 2.3], [-2.8, 2.8],
+                         [-2.8, 4.2], [-2.8, 1.0]])
