@@ -129,4 +129,4 @@ print(dbscan.labels_[:10])
 print(dbscan.core_sample_indices_[:10])
 print(dbscan.components_)
 
-def plot_dbscan()
+def plot_dbscan(dbscan, X, size, show_cl)
