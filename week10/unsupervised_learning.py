@@ -36,3 +36,4 @@ plt.gca().set_axisbelow(True)
 plt.grid()
 plt.show()
 
+# 각 샘플은 5개의 
