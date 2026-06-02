@@ -77,3 +77,5 @@ plt.grid()
 plt.show()
 
 from sklearn.metrics import silhouette_samples
+from matplotlib.ticker import FixedLocator, FixedFormatter
+
